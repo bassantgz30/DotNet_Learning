@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using System;
 using EmployeesClass;
 using ReportClass;
@@ -20,8 +20,16 @@ class Program
         };
 
         Report report1 = new Report();
-        report1.ProcessEmployee_60000P(emps);
-        report1.ProcessEmployee_30000_60000(emps);
-        report1.ProcessEmployee_30000L(emps);
+        string emps60 = "Employees with sales more than or equal 60,000";
+        string emps3060 = "Employees with Sales between 30,000 and 60,000 plus sales.";
+        string emps30 = "Employees with Sales Less than 30,000.";
+
+        report1.ProcessEmployee(emps, emps60, IsGreaterThan60K);
+        report1.ProcessEmployee(emps, emps3060, IsBet30Kand60K);
+        report1.ProcessEmployee(emps, emps30, IsLessThan30K);
     }
+
+    static bool IsGreaterThan60K(Employee e) => e.Sales >= 60000;
+    static bool IsBet30Kand60K(Employee e) => e.Sales>=30000 && e.Sales<60000;
+    static bool IsLessThan30K(Employee e) => e.Sales < 30000;
 }
