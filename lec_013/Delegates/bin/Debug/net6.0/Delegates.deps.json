@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Delegates/1.0.0": {
+        "dependencies": {
+          "EmployeesClass": "1.0.0",
+          "ReportClass": "1.0.0"
+        },
+        "runtime": {
+          "Delegates.dll": {}
+        }
+      },
+      "EmployeesClass/1.0.0": {
+        "runtime": {
+          "EmployeesClass.dll": {}
+        }
+      },
+      "ReportClass/1.0.0": {
+        "dependencies": {
+          "EmployeesClass": "1.0.0"
+        },
+        "runtime": {
+          "ReportClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Delegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeesClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EmployeesClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EmployeesClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeesClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeesClass/1.0.0": {
+      "type": "project",
+      "path": "../EmployeesClass/EmployeesClass.csproj",
+      "msbuildProject": "../EmployeesClass/EmployeesClass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EmployeesClass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bassa\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\FullStack_Metigator\\01_CSharp\\lec_013\\ReportClass\\ReportClass.csproj",
+      "projectName": "ReportClass",
+      "projectPath": "D:\\FullStack_Metigator\\01_CSharp\\lec_013\\ReportClass\\ReportClass.csproj",
+      "packagesPath": "C:\\Users\\bassa\\.nuget\\packages\\",
+      "outputPath": "D:\\FullStack_Metigator\\01_CSharp\\lec_013\\ReportClass\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\bassa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\FullStack_Metigator\\01_CSharp\\lec_013\\EmployeesClass\\EmployeesClass.csproj": {
+              "projectPath": "D:\\FullStack_Metigator\\01_CSharp\\lec_013\\EmployeesClass\\EmployeesClass.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

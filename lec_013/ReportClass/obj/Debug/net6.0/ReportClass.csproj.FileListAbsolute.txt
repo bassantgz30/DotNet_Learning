@@ -1,0 +1,15 @@
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\bin\Debug\net6.0\ReportClass.deps.json
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\bin\Debug\net6.0\ReportClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\bin\Debug\net6.0\ReportClass.pdb
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\bin\Debug\net6.0\EmployeesClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\bin\Debug\net6.0\EmployeesClass.pdb
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.csproj.AssemblyReference.cache
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.AssemblyInfoInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.AssemblyInfo.cs
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.csproj.CoreCompileInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.csproj.CopyComplete
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\refint\ReportClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ReportClass.pdb
+D:\FullStack_Metigator\01_CSharp\lec_013\ReportClass\obj\Debug\net6.0\ref\ReportClass.dll
