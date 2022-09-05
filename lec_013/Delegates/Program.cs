@@ -24,8 +24,8 @@ class Program
         string emps3060 = "Employees with Sales between 30,000 and 60,000 plus sales.";
         string emps30 = "Employees with Sales Less than 30,000.";
 
-        report1.ProcessEmployee(emps, emps60, (Employee e) =>  e.Sales >= 60000);
-        report1.ProcessEmployee(emps, emps3060, (Employee e) => e.Sales>=30000 && e.Sales<60000);
-        report1.ProcessEmployee(emps, emps30, (Employee e) => e.Sales < 30000);
+        report1.ProcessEmployee(emps, emps60, e => e.Sales >= 60000);
+        report1.ProcessEmployee(emps, emps3060, e => e.Sales>=30000 && e.Sales<60000);
+        report1.ProcessEmployee(emps, emps30, e => e.Sales < 30000);
     }
 }
