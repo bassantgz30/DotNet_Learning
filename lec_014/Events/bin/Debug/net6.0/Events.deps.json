@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Events/1.0.0": {
+        "dependencies": {
+          "StockClass": "1.0.0"
+        },
+        "runtime": {
+          "Events.dll": {}
+        }
+      },
+      "StockClass/1.0.0": {
+        "runtime": {
+          "StockClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Events/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StockClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

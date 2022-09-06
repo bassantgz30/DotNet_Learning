@@ -1,0 +1,12 @@
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\bin\Debug\net6.0\StockClass.deps.json
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\bin\Debug\net6.0\StockClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\bin\Debug\net6.0\StockClass.pdb
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.csproj.AssemblyReference.cache
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.AssemblyInfoInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.AssemblyInfo.cs
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.csproj.CoreCompileInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\refint\StockClass.dll
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\StockClass.pdb
+D:\FullStack_Metigator\01_CSharp\lec_014\StockClass\obj\Debug\net6.0\ref\StockClass.dll
