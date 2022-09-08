@@ -6,12 +6,12 @@
 
         public Person()
         {
-            Console.WriteLine("This is the Person's class constructor.");
+            //Console.WriteLine("This is the Person's class constructor.");
         }
         
         ~Person()
         {
-            Console.WriteLine("This is the Person's class destructor.");
+            //Console.WriteLine("This is the Person's class destructor.");
         }
     }
 }
