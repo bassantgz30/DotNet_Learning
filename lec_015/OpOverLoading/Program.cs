@@ -14,5 +14,8 @@ class Program
         Console.WriteLine($"With ordinary sum operator: m1.amount + m2.amount = {m1.Amount+m2.Amount}");
 
         Console.WriteLine($"With Operator overloading: m1 + m2 = {(m1 + m2).Amount}");
+
+        Console.WriteLine($"With Operator overloading: m1 > m2 = {m1 > m2}");
+        Console.WriteLine($"With Operator overloading: m1 < m2 = {m1 < m2}");
     }
 }
