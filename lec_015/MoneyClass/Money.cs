@@ -17,5 +17,15 @@ namespace MoneyClass
         {
             return new Money(m1._amount + m2._amount);
         }
+
+        public static bool operator > (Money m1, Money m2)
+        {
+            return m1._amount > m2._amount;
+        }
+
+        public static bool operator < (Money m1, Money m2)
+        {
+            return m1._amount < m2._amount;
+        }
     }
 }
