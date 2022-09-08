@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Destractors/1.0.0": {
+        "dependencies": {
+          "PersonClass": "1.0.0"
+        },
+        "runtime": {
+          "Destractors.dll": {}
+        }
+      },
+      "PersonClass/1.0.0": {
+        "runtime": {
+          "PersonClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Destractors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PersonClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
