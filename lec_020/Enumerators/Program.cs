@@ -10,6 +10,13 @@ class Program
         // Simple enumerator
         Console.WriteLine($"{(int)Month.Feb}");
 
+        // loop over enumerator
+        foreach(var month in Enum.GetNames(typeof(Month)))
+        {
+            Console.WriteLine($"{month} = {(int)Enum.Parse(typeof(Month), month)}");
+        }
+
+
         // Flag enumerator
         var day = (Day.Sat | Day.Sun);
 
