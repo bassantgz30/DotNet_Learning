@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Include=".\..\MonthEnumerator.cs" />
+    <Compile Include=".\..\DayEnumerator.cs" />
   </ItemGroup>
 
 </Project>
