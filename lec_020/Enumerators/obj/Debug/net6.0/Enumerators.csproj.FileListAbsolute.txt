@@ -1,0 +1,15 @@
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\bin\Debug\net6.0\Enumerators.exe
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\bin\Debug\net6.0\Enumerators.deps.json
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\bin\Debug\net6.0\Enumerators.runtimeconfig.json
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\bin\Debug\net6.0\Enumerators.dll
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\bin\Debug\net6.0\Enumerators.pdb
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.csproj.AssemblyReference.cache
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.AssemblyInfoInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.AssemblyInfo.cs
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.csproj.CoreCompileInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.dll
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\refint\Enumerators.dll
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.pdb
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\Enumerators.genruntimeconfig.cache
+D:\FullStack_Metigator\01_CSharp\lec_020\Enumerators\obj\Debug\net6.0\ref\Enumerators.dll
