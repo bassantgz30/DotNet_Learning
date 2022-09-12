@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"{Month.Feb}");
+        Console.WriteLine($"{(int)Month.Feb}");
     }
 }
 
