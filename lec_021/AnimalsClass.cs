@@ -12,6 +12,11 @@ namespace AnimalsClass
     {
         public void Move()
         {
+            Console.WriteLine("Moving .....");
+        }
+
+        public void Fly()
+        {
             Console.WriteLine("Flying .....");
         }
     }
