@@ -8,13 +8,9 @@ namespace AnimalsClass
         }
     }
 
-    class Eagle
+/* Eagle can access everythin (public, internal, protected) in Animal*/
+    class Eagle : Animal
     {
-        public void Move()
-        {
-            Console.WriteLine("Moving .....");
-        }
-
         public void Fly()
         {
             Console.WriteLine("Flying .....");
