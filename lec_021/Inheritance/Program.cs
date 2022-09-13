@@ -14,24 +14,28 @@ class Program
         eagle.Move();
         //e.Drink();  // not allowed bec it's protected method
         eagle.CallProtected(); // allowed
+        eagle.Food();
         Console.WriteLine();
 
         Console.WriteLine("***** Cat *****");
         Cat cat = new Cat();
         cat.Move();
         cat.Sound();
+        cat.Food();
         Console.WriteLine();
 
         Console.WriteLine("***** Dog *****");
         Dog dog = new Dog();
         dog.Move();
         dog.Sound();
+        dog.Food();
         Console.WriteLine();
 
         Console.WriteLine("***** Duck *****");
         Duck duck = new Duck();
         duck.Move();
         duck.Sound();
+        duck.Food();
         Console.WriteLine();
     }
 }
