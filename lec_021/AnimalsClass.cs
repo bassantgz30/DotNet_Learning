@@ -6,6 +6,11 @@ namespace AnimalsClass
         {
             Console.WriteLine("Moving .....");
         }
+
+        protected void Drink()
+        {
+            Console.WriteLine("Drinknig ..");
+        }
     }
 
 /* Eagle can access everythin (public, internal, protected) in Animal*/
@@ -14,6 +19,12 @@ namespace AnimalsClass
         public void Fly()
         {
             Console.WriteLine("Flying .....");
+        }
+
+        // Protected cna be accessed here only not in the main program or outside the class
+        public void CallProtected()
+        {
+            Drink();
         }
     }
 }
