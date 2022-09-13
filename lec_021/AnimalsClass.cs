@@ -1,6 +1,7 @@
 namespace AnimalsClass
 {
-    class Animal
+    // Abstract class can't be instantiated, can be inherited only
+    abstract class Animal
     {
         public void Move()
         {
@@ -10,6 +11,11 @@ namespace AnimalsClass
         protected void Drink()
         {
             Console.WriteLine("Drinknig ..");
+        }
+
+        public virtual void Sound()     // Must be virtual to be able to overriddin
+        {
+            Console.WriteLine("Sound !!");
         }
     }
 
@@ -25,6 +31,30 @@ namespace AnimalsClass
         public void CallProtected()
         {
             Drink();
+        }
+    }
+
+    class Cat : Animal
+    {
+        public override void Sound()
+        {
+            Console.WriteLine("Meow .. Meow .. Meow");
+        }
+    }
+
+    class Dog : Animal
+    {
+        public override void Sound()
+        {
+            Console.WriteLine("Park .. park .. park");
+        }
+    }
+
+    class Duck : Animal
+    {
+        public override void Sound()
+        {
+            Console.WriteLine("Quack .. quack .. quack");
         }
     }
 }
