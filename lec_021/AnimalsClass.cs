@@ -8,7 +8,7 @@ namespace AnimalsClass
             Console.WriteLine("Moving .....");
         }
 
-        protected void Drink()
+        protected void Drink()  // can be called in children only, not from oustide the class
         {
             Console.WriteLine("Drinknig ..");
         }
@@ -17,6 +17,8 @@ namespace AnimalsClass
         {
             Console.WriteLine("Sound !!");
         }
+
+        public abstract void Food();  // abstract method doesn't have a body, but it must be overridden
     }
 
 /* Eagle can access everythin (public, internal, protected) in Animal*/
@@ -32,6 +34,12 @@ namespace AnimalsClass
         {
             Drink();
         }
+
+        // override the abstract method Food
+        public override void Food()
+        {
+            Console.WriteLine("I am an Eagle, my food is ....");
+        }
     }
 
     class Cat : Animal
@@ -41,6 +49,11 @@ namespace AnimalsClass
             base.Sound(); // call the sound method of the base class
             Console.WriteLine("Meow .. Meow .. Meow");
         }
+
+        public override void Food()
+        {
+            Console.WriteLine("I am a Cat, my food is ....");
+        }
     }
 
     class Dog : Animal
@@ -49,6 +62,11 @@ namespace AnimalsClass
         {
             Console.WriteLine("Park .. park .. park");
         }
+
+        public override void Food()
+        {
+            Console.WriteLine("I am a Dog, my food is ....");
+        }
     }
 
     class Duck : Animal
@@ -56,6 +74,11 @@ namespace AnimalsClass
         public override void Sound()
         {
             Console.WriteLine("Quack .. quack .. quack");
+        }
+
+        public override void Food()
+        {
+            Console.WriteLine("I am a duck, my food is ....");
         }
     }
 }
