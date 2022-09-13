@@ -38,6 +38,7 @@ namespace AnimalsClass
     {
         public override void Sound()
         {
+            base.Sound(); // call the sound method of the base class
             Console.WriteLine("Meow .. Meow .. Meow");
         }
     }
