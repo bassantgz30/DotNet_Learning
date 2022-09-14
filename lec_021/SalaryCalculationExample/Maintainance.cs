@@ -2,7 +2,14 @@ namespace CompanyClasses
 {
     public class Maintainance : Employee
     {
-        public const decimal HARDSHIPS = 100M;  //Maintainance employee takes $100 as hardships allowance
+        private const decimal HARDSHIPS = 100M;  //Maintainance employee takes $100 as hardships allowance
+        
+        // Constructor
+        public Maintainance(int id, string name, decimal workingHours, decimal wage) : base(id, name, workingHours, wage)
+        {
+            
+        }
+
         protected override decimal CalculateSalary()
         {
             return base.CalculateSalary() + HARDSHIPS;

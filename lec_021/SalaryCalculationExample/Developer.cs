@@ -2,14 +2,21 @@ namespace CompanyClasses
 {
     public class Developer : Employee
     {
-        public const decimal BOUNCE = 0.03M; // developer takes +3% per completed task
-        public bool TaskDone { get; set; }
+        private const decimal BOUNCE = 0.03M; // developer takes +3% per completed task
+        protected bool TaskDone { get; set; }
       
-
+        // Constructor
+        public Developer(int id, string name, decimal workingHours, decimal wage, 
+        bool done) : base(id, name, workingHours, wage)
+        {
+            this.TaskDone = done;
+        }
+        
         protected override decimal CalculateSalary()
         {
             return base.CalculateSalary() + CalculateBounce();
         }
+
         private decimal CalculateBounce()
         {
             if (this.TaskDone)

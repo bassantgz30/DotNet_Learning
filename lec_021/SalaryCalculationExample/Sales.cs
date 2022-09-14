@@ -2,13 +2,22 @@ namespace CompanyClasses
 {
     public class Sales : Employee
     {
-        public decimal SalesAmount { get; set; }
-        public decimal Commission { get; set; }
+        protected decimal SalesAmount { get; set; }
+        protected decimal Commission { get; set; }
 
+        // Constructor
+        public Sales(int id, string name, decimal workingHours, decimal wage, decimal amount, 
+        decimal commision) : base(id, name, workingHours, wage)
+        {
+            this.SalesAmount = amount;
+            this.Commission = commision;
+        }
+        
         protected override decimal CalculateSalary()
         {
             return base.CalculateSalary() + CalculateBounce();
         }
+
         private decimal CalculateBounce()
         {
             return this.SalesAmount * this.Commission;

@@ -2,12 +2,22 @@ namespace CompanyClasses
 {
     public class Employee
     {
-        public const int MIN_WORK_HOURS = 176;
-        public const decimal OVERTIME_RATE = 1.25M;
-        public int Id { get; set; }
-        public string Name { get; set;}
-        public decimal WorkingHours { get; set;}
-        public decimal Wage { get; set;}
+        private const int MIN_WORK_HOURS = 176;
+        private const decimal OVERTIME_RATE = 1.25M;
+
+        protected int Id { get; set; }
+        protected string Name { get; set;}
+        protected decimal WorkingHours { get; set;}
+        protected decimal Wage { get; set;}
+
+        // Constructor
+        protected Employee(int id, string name, decimal workingHours, decimal wage)
+        {
+            Id = id;
+            Name = name;
+            WorkingHours = workingHours;
+            Wage = wage;
+        }
 
         protected virtual decimal CalculateSalary()
         { 
