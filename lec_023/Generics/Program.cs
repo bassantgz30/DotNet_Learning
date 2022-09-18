@@ -10,5 +10,9 @@ class Program
         print('c');
     }
 
-    static void print(object obj) => Console.WriteLine(obj);
+    static void print<T>(T value)  // type of T changes acc. to value
+    {
+        Console.WriteLine($"Type of T is {typeof(T)}");
+        Console.WriteLine($"value is {value}");
+    }
 }
