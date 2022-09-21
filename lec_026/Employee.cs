@@ -16,5 +16,10 @@ namespace ProjectClasses
                     && this.salary == emp.salary 
                     && this.department == emp.department;
         }
+
+        public static bool operator == (Employee lfs, Employee rfs) => lfs.Equals(rfs);
+
+        public static bool operator != (Employee lfs, Employee rfs) => !(lfs.Equals(rfs));
+
     }
 }
