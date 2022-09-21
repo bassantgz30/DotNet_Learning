@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using System;
 using ProjectClasses;
 
@@ -14,6 +14,10 @@ class Project
 
         Employee e3 = e2;   // both point to the same memory location
         Console.WriteLine($"e3 is identical to e2? {e3 == e2}");
+
+        // testing after overriding 'Equals()' method
+        Console.WriteLine("********* After overriding 'Equals()' method **********");
+        Console.WriteLine($"e1 is equal to e2? {e1.Equals(e2)}");
 
     }
 }
