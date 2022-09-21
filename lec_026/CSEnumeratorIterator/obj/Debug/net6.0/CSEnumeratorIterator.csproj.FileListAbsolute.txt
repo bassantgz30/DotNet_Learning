@@ -1,0 +1,15 @@
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\bin\Debug\net6.0\CSEnumeratorIterator.exe
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\bin\Debug\net6.0\CSEnumeratorIterator.deps.json
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\bin\Debug\net6.0\CSEnumeratorIterator.runtimeconfig.json
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\bin\Debug\net6.0\CSEnumeratorIterator.dll
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\bin\Debug\net6.0\CSEnumeratorIterator.pdb
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.csproj.AssemblyReference.cache
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.GeneratedMSBuildEditorConfig.editorconfig
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.AssemblyInfoInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.AssemblyInfo.cs
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.csproj.CoreCompileInputs.cache
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.dll
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\refint\CSEnumeratorIterator.dll
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.pdb
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\CSEnumeratorIterator.genruntimeconfig.cache
+D:\FullStack_Metigator\01_CSharp\lec_026\CSEnumeratorIterator\obj\Debug\net6.0\ref\CSEnumeratorIterator.dll
